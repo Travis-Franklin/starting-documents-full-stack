@@ -1,5 +1,5 @@
 scripts{
-    "dev": "nodemon --ignore './sessions/' index.js",
+    "dev": "nodemon index.js",
     "db:delete": "dropdb fullstack-pets",
     "db:create": "createdb fullstack-pets",
     "db:schema": "psql -f schema.sql fullstack-pets",
